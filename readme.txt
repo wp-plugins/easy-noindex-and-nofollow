@@ -19,6 +19,7 @@ Full list of features:
 * Have Benchmark tools to test the search time.
 
 TODO:
+
 1. Add a nice Setting page
 2. Add nofollow and noindex for search, 404, tag, category and blogroll
 
