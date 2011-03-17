@@ -9,7 +9,7 @@
  * Tested up to: 3.1
  * Tags: noindex, nofollow, seo, google panda
  * Contributors: Ivan Kristianto
- * WordPress URI: http://www.ivankristianto.com/
+ * WordPress URI: http://wordpress.org/extend/plugins/easy-noindex-and-nofollow/
  * Author URI: http://www.ivankristianto.com/
  * Donate URI: http://www.ivankristianto.com/portfolio/
  * Plugin URI: http://www.ivankristianto.com/web-development/programming/easy-noindex-and-nofollow-wordpress-plugin/1797/
