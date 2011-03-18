@@ -12,6 +12,8 @@ Easily add Noindex and Nofollow to any post.
 
 Easily add Noindex and Nofollow to any post.
 
+See my article [Easy Noindex and Nofollow WordPress Plugin](http://goo.gl/500FU) for details.
+
 Full list of features:
 
 * Add nofollow and noindex in post and page
