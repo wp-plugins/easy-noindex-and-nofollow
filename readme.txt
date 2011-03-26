@@ -4,7 +4,7 @@ Donate link: http://www.ivankristianto.com/portfolio/
 Tags: noindex, nofollow, seo, google panda
 Requires at least: 2.8
 Tested up to: 3.1
-Stable tag: 1.0
+Stable tag: 1.1
 
 Easily add Noindex and Nofollow to any post.
 
@@ -40,6 +40,8 @@ This section describes how to install the plugin and get it working.
 
 == Changelog ==
 
+= 1.1 =
+Fix bugs for page. Now it will show meta tag in pages.
 = 1.0 =
 * First release of the plugin.
 

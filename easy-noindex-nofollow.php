@@ -4,7 +4,7 @@
  * Short Name: easy_noindex_nofollow
  * Description: Easily add Noindex and Nofollow to any post.
  * Author: Ivan Kristianto
- * Version: 1.0
+ * Version: 1.1
  * Requires at least: 2.7
  * Tested up to: 3.1
  * Tags: noindex, nofollow, seo, google panda
@@ -52,7 +52,7 @@ function easy_noindex_nofollow_init() {
 
 function easy_noindex_nofollow_add_header(){
 	global $wp_query;
-	if(is_single()){
+	if(is_single() || is_page()){
 		$post = $wp_query->get_queried_object();
 		$easy_noindex_nofollow_index = get_post_meta( $post->ID, 'easy_noindex_nofollow_index', true );
 		$easy_noindex_nofollow_follow = get_post_meta( $post->ID, 'easy_noindex_nofollow_follow', true );
@@ -72,7 +72,7 @@ function easy_noindex_nofollow_add_header(){
 				$nofollow = "follow";
 			}
 			
-			echo sprintf("<!--Add by easy-noindex-nofollow--><meta name=\"robots\" content=\" %s, %s\"/>\n", $noindex, $nofollow);
+			echo sprintf("<!--Add by easy-noindex-nofollow--><meta name=\"robots\" content=\"%s, %s\"/>\n", $noindex, $nofollow);
 		}
 	}
 }
