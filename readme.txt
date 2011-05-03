@@ -4,26 +4,19 @@ Donate link: http://www.ivankristianto.com/portfolio/
 Tags: noindex, nofollow, seo, google panda
 Requires at least: 2.8
 Tested up to: 3.1
-Stable tag: 1.1
+Stable tag: 1.2
 
-Easily add Noindex and Nofollow to any post.
+Easily add Noindex and Nofollow to post, page, search and category page.
 
 == Description ==
 
-Easily add Noindex and Nofollow to any post.
+Easily add Noindex and Nofollow to post, page, search and category page.
 
 See my article [Easy Noindex and Nofollow WordPress Plugin](http://goo.gl/500FU) for details.
 
 Full list of features:
 
-* Add nofollow and noindex in post and page
-* Low resource consuming when doing search in large database.
-* Have Benchmark tools to test the search time.
-
-TODO:
-
-1. Add a nice Setting page
-2. Add nofollow and noindex for search, 404, tag, category and blogroll
+* Add nofollow and noindex in post, page, search and category page.
 
 Other interesting stuff:
 
@@ -40,8 +33,13 @@ This section describes how to install the plugin and get it working.
 
 == Changelog ==
 
+= 1.2 =
+* Add a nice Setting page
+* Add nofollow and noindex for search and category
+
 = 1.1 =
 Fix bugs for page. Now it will show meta tag in pages.
+
 = 1.0 =
 * First release of the plugin.
 
