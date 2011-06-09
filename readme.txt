@@ -45,7 +45,7 @@ Fix bugs for page. Now it will show meta tag in pages.
 
 == Frequently Asked Questions ==
 
-= Any question contact me at [IvanKristianto.com](http://www.ivankristianto.com/about/) =
+Any question contact me at [IvanKristianto.com](http://www.ivankristianto.com/about/)
 
 == Screenshots ==
 
